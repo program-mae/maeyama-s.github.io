@@ -1,7 +1,7 @@
 /* リセットCSS */
 body{
   font-size: 14px;
-  color: #333;
+  color: rgb(110, 110, 110);
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6, p{
@@ -21,6 +21,9 @@ p{
   line-height: 25px;
   letter-spacing: 3px;
 }
+b{
+  color: rgb(70, 70, 70);
+}
 
 .content{
   max-width: 750px;
@@ -39,7 +42,7 @@ p{
   margin: 100px 0 20px 0;
 }
 .reservation-here{
-  width: 440px;
+  width: 340px;
 }
 .btn-container{
   display: flex;
@@ -53,7 +56,7 @@ p{
 }
 a{
   text-decoration: none;
-  color: #52E052;
+  color: #00E000;
   font-weight: bold;
   font-size: 25px;
   text-align: center;
@@ -62,7 +65,7 @@ a{
   width: 100%;
 }
 .reservation-img{
-  width: 400px;
+  width: 250px;
   border: 1px solid #D5D5D5;
   box-shadow: 5px 5px 10px 0px rgb(185, 185, 185);
 }
@@ -78,18 +81,19 @@ a{
   left: 0%;
   width: 67%;
   height: 140px;
-  background-color: #F9FFE0;
+  background-color: #E9FCE5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .sympathy-band h1{
-  color: #52E052;
+  color: #00E000;
 }
-.sympathy-text{
+.sympathy-text p{
   position: absolute;
   top: 150px;
   left: 10%;
+  line-height: 35px;
 }
 .sympathy-img{
   width: 38%;
@@ -110,18 +114,19 @@ a{
   right: 0%;
   width: 67%;
   height: 140px;
-  background-color: #F9FFE0;
+  background-color:#E9FCE5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .benefit-band h1{
-  color: #52E052;
+  color: #00E000;
 }
-.benefit-text{
+.benefit-text p{
   position: absolute;
   top: 150px;
   right: 20%;
+  line-height: 35px;
 }
 .benefit-img{
   width: 38%;
@@ -142,13 +147,14 @@ a{
   left: 0%;
   width: 67%;
   height: 140px;
-  background-color: #F9FFE0;
+  background-color: #E9FCE5;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 60px;
   align-items: center;
 }
 .introduction-band h1{
-  color: #52E052;
+  color: #00E000;
 }
 .introduction-text{
   position: absolute;
@@ -174,18 +180,19 @@ a{
   right: 0%;
   width: 67%;
   height: 140px;
-  background-color: #F9FFE0;
+  background-color: #E9FCE5;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 80px;
   align-items: center;
 }
 .thoughts-band h1{
-  color: #52E052;
+  color: #00E000;
 }
 .thoughts-text{
   position: absolute;
   top: 150px;
-  right: 15%;
+  right: 12%;
 }
 .font-space{
   margin-left: 20px;
@@ -209,48 +216,49 @@ a{
   left: 0%;
   width: 67%;
   height: 140px;
-  background-color: #F9FFE0;
+  background-color: #E9FCE5;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 50px;
   align-items: center;
 }
 .support-content-band h1{
-  color: #52E052;
+  color: #00E000;
 }
 .mental{
   position: absolute;
   top: 168px;
   left: 10%;
-  color: #52E052;
+  color: #00E000;
 }
 .mental-text{
   position: absolute;
   top: 240px;
   left: 1%;
-  background-color: #F9FFE0;
+  background-color: #E9FCE5;
   padding: 30px;
 }
 .mental-img{
   position: absolute;
-  top: 310px;
+  top: 330px;
   right: 0%;
 }
 .mental-bubble-text{
   position: absolute;
-  top: 335px;
-  right: 2%;
+  top: 355px;
+  right: 4%;
 }
 .asset{
   position: absolute;
   top: 590px;
   right: 10%;
-  color: #52E052;
+  color: #00E000;
 }
 .asset-text{
   position: absolute;
   top: 660px;
   right: 1%;
-  background-color: #F9FFE0;
+  background-color: #E9FCE5;
   padding: 35px 84px;
   width: 400px;
   height: 230px;
@@ -264,7 +272,7 @@ a{
 .asset-bubble-text{
   position: absolute;
   top: 800px;
-  left: 4%;
+  left: 5%;
 }
 
 .fee{
@@ -287,14 +295,14 @@ a{
   height: 210px;
 }
 .fee-top p{
-  border-bottom: 3px solid #52E052;
+  border-bottom: 3px solid #00E000;
 }
 .fee-center{
   display: flex;
   justify-content: space-around;
 }
 .fee-center p{
-  border-bottom: 3px solid #52E052;
+  border-bottom: 3px solid #00E000;
 }
 .fee-bottom{
   display: flex;
@@ -331,7 +339,7 @@ a{
 .customer-text{
   width: 95%;
   height: 100%;
-  background-color: #F9FFE0;
+  background-color: #E9FCE5;
 }
 .customer-heading{
   display: flex;
@@ -340,8 +348,8 @@ a{
   height: 200px;
 }
 .customer-heading h1{
-  color: #52E052;
-  border-bottom: 3px solid #52E052;
+  color: #00E000;
+  border-bottom: 3px solid #00E000;
 }
 .customer1-text{
   position: relative;
