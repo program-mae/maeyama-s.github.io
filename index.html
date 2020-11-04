@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- アナリティクス -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QZC4NMEQH"></script>
     <script>
@@ -10,28 +11,44 @@
     
       gtag('config', 'G-7QZC4NMEQH');
     </script>
+
     <meta charset="UTF-8">
     <title>ライフコンサルタント MIO</title>
     <link rel="stylesheet" href="mio.css">
+    
+    <!-- viewport設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div class="content">
+
       <div class="catch-copy">
-        <img src="images/catch-copy.png" alt="キャッチコピー背景画像" class="catch-copy-img">
+        <h2 class="first">問題を放置していませんか？</h2>
+        <h2 class="second">悩みのエスカレートにつながります</h2>
+        <h1>
+          問題は<span>放置</span>せず<br>
+          <span>解決</span>しましょう
+        </h1>
       </div>
-      <div class="reservation-image">
-        <img src="images/予約はこちら.png" alt="予約はこちら" class="reservation-here">
-      </div>
-      <div class="btn-container">
+
+      <div class="link">
+        <div class="reservation-image">
+          <img src="images/予約はこちら.png" alt="予約はこちら" class="reservation-here">
+        </div>
         <div class="btn">
-          <a href="https://coubic.com/mae-program" target="_blank" class="reservation-btn"><img src="images/予約する.png" alt="予約する" class="reservation-img"></a>
+          <a href="https://coubic.com/mae-program" target="_blank" class="reservation-btn">予約する</a>
         </div>
       </div>
+
       <div class="sympathy">
-        <div class="sympathy-band">
-          <h1>こんなお悩みはありませんか？</h1>
-        </div>
+        <div class="sympathy-back"></div>
+        <div class="sympathy-band"></div>
+        <img src="images/お悩み.jpg" alt="こんなお悩みはありませんか？" class="sympathy-img">
         <div class="sympathy-text">
+          <p class="heading">
+            こんなお悩みは<br>
+            ありませんか？
+          </p>
           <p>
             仕事の悩み<br>
             人間関係の悩み<br>
@@ -39,13 +56,16 @@
             家族に相談できない悩み
           </p>
         </div>
-        <img src="images/お悩み.jpg" alt="こんなお悩みはありませんか？" class="sympathy-img">
       </div>
+
       <div class="benefit">
-        <div class="benefit-band">
-          <h1>カウンセリングを受けると</h1>
-        </div>
+        <div class="benefit-back"></div>
+        <img src="images/受けると.jpg" alt="カウンセリングを受けると" class="benefit-img">
         <div class="benefit-text">
+          <p class="heading">
+            カウンセリング<br>
+            を受けると
+          </p>
           <p>
             考えを整理できる<br>
             一歩踏み出すきっかけになる<br>
@@ -53,32 +73,41 @@
             人生を楽しく過ごせるようになる
           </p>
         </div>
-        <img src="images/受けると.jpg" alt="カウンセリングを受けると" class="benefit-img">
       </div>
+
       <div class="introduction">
-        <div class="introduction-band">
-          <h1>藤井<span class="font-space"></span>澪</h1>
-        </div>
+        <div class="introduction-back"></div>
+        <div class="introduction-band"></div>
+        <img src="images/mio.png" alt="藤井  澪" class="introduction-img">
         <div class="introduction-text">
+          <p class="heading">
+            藤井<span class="font-space">澪</span>
+          </p>
           <p>
-            カウンセリング、占い、お金の知識など<br>
-            ライフイベントに関わる勉強を重ね<br>
-            <b>ライフコンサルタント</b>として独立しています。<br><br>
-            主に悩みを持っている人たちの相談を受け、<br>
-            良い方向に前進するようなマインドや考え方を<br>
-            お伝えしています。<br><br>
-            <b>メンタル面</b>に加え、<b>資産運用面</b>のサポート活動もしており、<br>
-            副業の始め方や稼ぎ方のノウハウもお伝えしています。<br><br>
-            ぜひ、<b>「知る」をきっかけに「実践」</b>して体験してください！
+            カウンセリング、占い、お金の知識<br>
+            などライフイベントに関わる勉強を<br>
+            重ね<b>ライフコンサルタント</b>として<br>
+            独立しています。<br><br>
+            主に悩みを持っている人たちの相談<br>
+            を受け、良い方向に前進するような<br>
+            マインドや考え方をお伝えしています。<br><br>
+            <b>メンタル面</b>に加え、<b>資産運用面</b>の<br>
+            サポート活動もしており、副業の<br>
+            始め方や稼ぎ方のノウハウもお伝え<br>
+            しています。<br><br>
+            ぜひ、<b>「知る」をきっかけに「実践」</b><br>
+            して体験してください！
           </p>
         </div>
-        <img src="images/澪.jpg" alt="藤井  澪" class="introduction-img">
       </div>
+
       <div class="thoughts">
-        <div class="thoughts-band">
-          <h1>思い</h1>
-        </div>
+        <div class="thoughts-back"></div>
+        <img src="images/th.png" alt="思い" class="thoughts-img">
         <div class="thoughts-text">
+          <p class="heading">
+            思い
+          </p>
           <p>
             ・人生に悩んでいる<br>
             ・自分に自信がない<br>
@@ -86,18 +115,16 @@
             <span class="font-space">どうしたら良いかわからない</span><br><br>
             そんな人を私と出会うことで<br>
             少しでも良い方向に進んでほしい！<br><br>
-            <b>本気でそう思っています！</b><br><br>
-            一緒に豊かな人生を歩んでいきましょう！
+            <b>本気でそう思っています！</b><br>
+            一緒に豊な人生を歩んでいきましょう！
           </p>
         </div>
-        <img src="images/思い.jpg" alt="思い" class="thoughts-img">
       </div>
+
       <div class="support-content">
-        <div class="support-content-band">
-          <h1>サポート内容</h1>
-        </div>
-        <h1 class="mental">1. メンタルサポート</h1>
+        <p class="left-heading">サポート内容</p>
         <div class="mental-text">
+          <p class="heading">1. メンタルサポート</p>
           <p>
             ・仕事、恋愛、自分を変えたい等の悩み相談<br>
             ・良い方向に前進するようなマインドセット<br>
@@ -117,8 +144,8 @@
             近づけることができる。
           </p>
         </div>
-        <h1 class="asset">2. 資産運用サポート</h1>
         <div class="asset-text">
+          <p class="heading">2. 資産運用サポート</p>
           <p>
             ・投資との向き合い方<br>
             ・投資に関する知識<br>
@@ -136,6 +163,7 @@
           </p>
         </div>
       </div>
+
       <div class="fee">
         <div class="fee-plan">
           <div class="fee-top">
@@ -150,58 +178,56 @@
             <p><span class="font-space"></span>資産運用セミナー 無料</p>
           </div>
         </div>
-        <img src="images/パス 69.png" alt="パス69" class="path1-img">
         <img src="images/メンタルサポート初回¥3,000.png" alt="初回¥3,000" class="first-3000">
-        <img src="images/パス 69.png" alt="パス69" class="path2-img">
         <img src="images/資産運用サポート初回ヒアリング.png" alt="初回ヒアリング" class="first-hearing">
       </div>
+
       <div class="customer-voice">
-        <div class="customer-text">
-          <div class="customer-heading">
-            <h1>お客様の声</h1>
-          </div>
+        <div class="customer-voice-band"></div>
+        <img src="images/声.png" alt="お客様の声" class="customer-voice-img">
+        <div class="customer-voice-text">
+          <p class="customer-voice-heading">お客様の声</p>
           <div class="customer1-text">
-            <img src="images/サラリーマン.png" alt="20代・会社員" class="customer1-img">
-            <p class="customer1-name">20代・会社員</p>
             <p class="customer1-comment">
               今の僕に合った最高のカウンセリングでした。<br>
-              僕の悩みに対してしっかりと話を聞いてくれて、<br>
-              今後どうしていけば良いのかをしっかりと教えてくれて、<br>
-              自分の経験談を交えながら分かり易く<br>
-              そして楽しくお話ししてくれました！<br>
-              自分の感じた事、学んだことをしっかりと実践して<br>
-              頑張って行きたいな！と心から思えたカウンセリングでした！<br>
+              僕の悩みに対してしっかりと話を聞いてくれて、今後どうして<br>
+              いけば良いのかをしっかりと教えてくれて、自分の経験談を<br>
+              交えながら分かり易く楽しくお話ししてくれました！<br>
+              自分の感じた事、学んだことをしっかりと実践して頑張って<br>
+              行きたいな！と心から思えたカウンセリングでした！<br>
               ありがとうございました！
             </p>
           </div>
+          <p class="customer1-name">20代・会社員</p>
+          <img src="images/サラリーマン.png" alt="20代・会社員" class="customer1-img">
           <div class="customer2-text">
-            <img src="images/OL.png" alt="30代・会社員" class="customer2-img">
-            <p class="customer2-name">30代・会社員</p>
             <p class="customer2-comment">
               気付きの機会をくれたカウンセリングでした。<br>
               話を聞いてくれて、臨機応変な話を展開してくださいました。<br>
               自分について深く考える機会になりました。
             </p>
           </div>
+          <p class="customer2-name">30代・会社員</p>
+          <img src="images/OL.png" alt="30代・会社員" class="customer2-img">
           <div class="customer3-text">
-            <img src="images/カフェ店員.png" alt="30代・会社員" class="customer3-img">
-            <p class="customer3-name">30代・会社員</p>
             <p class="customer3-comment">
               目からウロコが出ました。<br>
-              表面的なテクニックでなく、ベースとなる考え方を<br>
-              学べて大変勉強になりました。
+              表面的なテクニックでなく、ベースとなる考え方を学べて<br>
+              大変勉強になりました。
             </p>
+          </div>
+          <p class="customer3-name">30代・会社員</p>
+          <img src="images/カフェ店員.png" alt="30代・会社員" class="customer3-img">
+
+          <div class="reservation-image">
+            <img src="images/予約はこちら.png" alt="予約はこちら" class="reservation-here last-here">
+          </div>
+          <div class="btn last-btn">
+            <a href="https://coubic.com/mae-program" target="_blank" class="reservation-btn">予約する</a>
           </div>
         </div>
       </div>
-      <div class="reservation-image">
-        <img src="images/予約はこちら.png" alt="予約はこちら" class="reservation-here">
-      </div>
-      <div class="btn-container">
-        <div class="btn">
-          <a href="https://coubic.com/mae-program" target="_blank" class="reservation-btn"><img src="images/予約する.png" alt="予約する" class="reservation-img"></a>
-        </div>
-      </div>
+
     </div>
   </body>
 </html>
