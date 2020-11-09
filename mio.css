@@ -92,6 +92,16 @@ header a{
   letter-spacing: 5vw;
   font-size: 6vw;
   padding: 2vw 25vw 2vw 30vw;
+  transition: 0.5s;
+}
+.reservation_btn:hover{
+  background-color: white;
+  color: #A59979;
+  border: 1px solid #A59979;
+  transition: 0.5s;
+  border-radius: 2vw;
+  letter-spacing: 100px;
+  padding: 15px 80px 15px 180px;
 }
 
 .top_link_content {
@@ -134,7 +144,7 @@ img {
 }
 
 .support-content{
-  background: #f7f3f0;
+  background: #FAF9F8;
   margin-top: 7vw;
 }
 .support-title{
@@ -144,10 +154,11 @@ img {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 5vw 5vw 15vw 5vw;
+  align-items: center;
+  padding: 5vw 0vw;
   width: 90%;
-  margin-left: 10%;
+  margin: 0 auto;
+  box-shadow: 1vw 1vw 2vw 1vw #A59979;
 }
 .mental_h{
   font-size: 6vw;
@@ -161,30 +172,37 @@ img {
   line-height: 170%;
   color: #494949;
 }
+.arrow-img{
+  text-align: center;
+}
+.arrow{
+  width: 40vw;
+  margin: 5vw 0;
+}
 .mental-bubble-text{
-  position: relative;
-}
-.mental-bubble-text p{
-  width: 88%;
-  padding: 15vw 0 5vw 9vw;
-  font-size: 4vw;
-  line-height: 170%;
-  color: #494949;
-  position: absolute;
-  top: -15vw;
-  left: 0;
-  background-image: url(images/9.png);
-  background-size: contain;
-}
-.asset-text{
-  position: relative;
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 5vw 5vw 15vw 5vw;
+  align-items: center;
+  padding: 5vw 0vw;
   width: 90%;
-  margin: 70vw 0 0 10%;
+  margin: 0 auto 10vw auto;
+  box-shadow: 1vw 1vw 2vw 1vw #A59979;
+}
+.mental-bubble-text p{
+  font-size: 4vw;
+  line-height: 170%;
+  color: #494949;
+}
+.asset-text{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vw 0vw;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1vw 1vw 2vw 1vw #A59979;
 }
 .asset_h{
   font-size: 6vw;
@@ -197,26 +215,24 @@ img {
   font-size: 4vw;
   line-height: 170%;
   color: #494949;
-  margin-right: 14vw;
 }
 .asset-bubble-text{
-  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vw 0vw;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1vw 1vw 2vw 1vw #A59979;
 }
 .asset-bubble-text p{
-  width: 91%;
-  padding: 13vw 0 8vw 9vw;
   font-size: 4vw;
   line-height: 170%;
   color: #494949;
-  position: absolute;
-  top: -15vw;
-  left: 0;
-  background-image: url(images/10.png);
-  background-size: cover;
 }
 .back{
-  height: 32vw;
-  margin-bottom: 13vw;
+  height: 10vw;
 }
 
 .thoughts_text{
@@ -235,8 +251,6 @@ img {
   z-index: -1;
 }
 .fee_text{
-  margin-top: 4vw;
-  border: 1px solid #A59979;
   padding: 14vw 15vw 10vw 15vw;
   text-align: center;
   box-shadow: 1vw 1vw 2vw 1vw #A59979;
@@ -287,7 +301,7 @@ img {
   }
 
   .top_message {
-    padding: 90px 0;
+    padding: 6vw 0;
   }
   .top_message p {
     font-size: 20px;
@@ -347,10 +361,9 @@ img {
     width: 50%;
   }
   .mental-text{
-    width: 37vw;
-    margin-left: 5vw;
-    align-items: center;
-    padding: 5vw 5vw 5vw 5vw;
+    padding: 2vw 0vw;
+    width: 70%;
+    box-shadow: 0.2vw 0.2vw 0.5vw 0.2vw #A59979;
   }
   .mental_h{
     font-size: 2vw;
@@ -359,21 +372,23 @@ img {
   .mental_p {
     font-size: 1.2vw;
   }
+  .arrow {
+    width: 15vw;
+    margin: 2vw 0;
+  }
+  .mental-bubble-text{
+    padding: 2vw;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0.2vw 0.2vw 0.5vw 0.2vw #A59979;
+  }
   .mental-bubble-text p {
     font-size: 1.2vw;
-    padding: 7vw 2vw 3vw 2vw;
-    width: 81%;
-    background-image: url(images/12.png);
-    background-size: cover;
-    top: -5vw;
-    left: auto;
-    right: 1vw;
   }
   .asset-text{
-    width: 37vw;
-    align-items: center;
-    margin: 0 0 0 5vw;
-    padding: 5vw 5vw 5vw 5vw;
+    padding: 2vw 0vw;
+    width: 70%;
+    box-shadow: 0.2vw 0.2vw 0.5vw 0.2vw #A59979;
   }
   .asset_h {
     font-size: 2vw;
@@ -383,25 +398,22 @@ img {
     font-size: 1.2vw;
     margin-right: 0;
   }
+  .asset-bubble-text{
+    padding: 2vw;
+    width: 70%;
+    box-shadow: 0.2vw 0.2vw 0.5vw 0.2vw #A59979;
+  }
   .asset-bubble-text p {
     font-size: 1.2vw;
-    padding: 5vw 2vw 3vw 6vw;
-    width: 70%;
-    top: -5vw;
-    right: 3vw;
-    left: auto;
-    background-image: url(images/13.png);
   }
   .back {
-    height: 22vw;
-    margin-bottom: 0;
+    height: 3vw;
   }
 
   .thoughts_text {
     padding-left: 5vw;
   }
   .fee_text{
-    margin-top: 1vw;
     padding: 7vw 7vw 5vw 7vw;
     box-shadow: 0.2vw 0.2vw 0.5vw 0.2vw #A59979;
   }
@@ -424,4 +436,23 @@ img {
   .last_btn {
     margin: 7vw 0;
   }
+}
+
+/* javascript */
+.sa {
+  opacity: 0;
+  transition: all .5s ease;
+}
+.sa.show {
+  opacity: 1;
+  transform: none;
+}
+.sa--up {
+  transform: translate(0, 100px);
+}
+.sa--down {
+  transform: translate(0, -100px);
+}
+.sa--scaleUp {
+  transform: scale(.5);
 }
