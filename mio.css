@@ -37,9 +37,6 @@ header a{
   margin: 0 10px 0 20px;
   font-size: 23px;
 }
-.header_site{
-  font-size: 15px;
-}
 
 .main_view{
   padding: 30vw 3vw 20vw;
@@ -56,12 +53,7 @@ header a{
   padding: 0px;
   line-height: 8vw;
   letter-spacing: 5px;
-}
-.title_2{
-  font-size: 5vw;
-  padding: 0px;
-  margin-bottom: 4vw;
-  letter-spacing: 3px;
+  margin-bottom: 6vw;
 }
 .title_3{
   font-size: 4vw;
@@ -288,6 +280,7 @@ img {
   .title_1 {
     font-size: 45px;
     line-height: 50px;
+    margin-bottom: 40px;
   }
   .title_2{
     font-size: 30px;
